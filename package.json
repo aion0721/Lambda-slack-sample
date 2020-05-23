@@ -1,0 +1,25 @@
+{
+  "name": "lambda-gulp-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^3.5.1",
+    "gulp-install": "^1.1.0",
+    "gulp-zip": "^5.0.1",
+    "node-aws-lambda": "^0.1.8",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "gm": "^1.23.1"
+  }
+}
